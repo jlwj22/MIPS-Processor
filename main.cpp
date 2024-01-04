@@ -724,7 +724,7 @@ string addZeroes(int zeroes, string str) {
         newString += "0";
     }
 
-    // Append the original string to the newString
+    // Append the original string to the newString :)
     newString += str;
 
     return newString;
