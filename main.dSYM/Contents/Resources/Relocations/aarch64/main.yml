@@ -1,8 +1,8 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/juliusj/Developer/MIPS Processor VSCODE/main'
+binary-path:     '/Users/juliusj/Developer/MIPS/main'
 relocations:
-  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _hexInstruction, symObjAddr: 0x31150, symBinAddr: 0x100010000, symSize: 0x0 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _hexInstruction, symObjAddr: 0x31130, symBinAddr: 0x100010000, symSize: 0x0 }
   - { offsetInCU: 0x395F, offset: 0x395F, size: 0x8, addend: 0x0, symName: __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m, symObjAddr: 0x55D0, symBinAddr: 0x100008664, symSize: 0x1EC }
   - { offsetInCU: 0x4857, offset: 0x4857, size: 0x8, addend: 0x0, symName: __ZNSt3__16copy_nB7v160006IPKcmPcEENS_9enable_ifIXsr33__is_cpp17_random_access_iteratorIT_EE5valueET1_E4typeES5_T0_S6_, symObjAddr: 0x6F5C, symBinAddr: 0x100009FF0, symSize: 0x44 }
   - { offsetInCU: 0x5AE7, offset: 0x5AE7, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB7v160006INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc, symObjAddr: 0x31C, symBinAddr: 0x1000033B0, symSize: 0x48 }
@@ -47,12 +47,12 @@ relocations:
   - { offsetInCU: 0x79F9, offset: 0x79F9, size: 0x8, addend: 0x0, symName: __ZNSt3__18__fill_nB7v160006IPcmcEET_S2_T0_RKT1_, symObjAddr: 0x7640, symBinAddr: 0x10000A6D4, symSize: 0x64 }
   - { offsetInCU: 0x7A5C, offset: 0x7A5C, size: 0x8, addend: 0x0, symName: __ZNSt3__121__convert_to_integralB7v160006Em, symObjAddr: 0x76A4, symBinAddr: 0x10000A738, symSize: 0x14 }
   - { offsetInCU: 0x7CFD, offset: 0x7CFD, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB7v160006v, symObjAddr: 0x6EDC, symBinAddr: 0x100009F70, symSize: 0x34 }
-  - { offsetInCU: 0x7FC9, offset: 0x7FC9, size: 0x8, addend: 0x0, symName: _pc, symObjAddr: 0x31168, symBinAddr: 0x100010018, symSize: 0x0 }
-  - { offsetInCU: 0x7FDE, offset: 0x7FDE, size: 0x8, addend: 0x0, symName: _userinput, symObjAddr: 0x31170, symBinAddr: 0x100010020, symSize: 0x0 }
-  - { offsetInCU: 0x7FF3, offset: 0x7FF3, size: 0x8, addend: 0x0, symName: _registers, symObjAddr: 0x31188, symBinAddr: 0x100010038, symSize: 0x0 }
-  - { offsetInCU: 0x8014, offset: 0x8014, size: 0x8, addend: 0x0, symName: _memory, symObjAddr: 0x311C8, symBinAddr: 0x100010078, symSize: 0x0 }
-  - { offsetInCU: 0x8029, offset: 0x8029, size: 0x8, addend: 0x0, symName: _registersStr, symObjAddr: 0x31208, symBinAddr: 0x1000100B8, symSize: 0x0 }
-  - { offsetInCU: 0x804A, offset: 0x804A, size: 0x8, addend: 0x0, symName: _memoryStr, symObjAddr: 0x31388, symBinAddr: 0x100010238, symSize: 0x0 }
+  - { offsetInCU: 0x7FC9, offset: 0x7FC9, size: 0x8, addend: 0x0, symName: _pc, symObjAddr: 0x31148, symBinAddr: 0x100010018, symSize: 0x0 }
+  - { offsetInCU: 0x7FDE, offset: 0x7FDE, size: 0x8, addend: 0x0, symName: _userinput, symObjAddr: 0x31150, symBinAddr: 0x100010020, symSize: 0x0 }
+  - { offsetInCU: 0x7FF3, offset: 0x7FF3, size: 0x8, addend: 0x0, symName: _registers, symObjAddr: 0x31168, symBinAddr: 0x100010038, symSize: 0x0 }
+  - { offsetInCU: 0x8014, offset: 0x8014, size: 0x8, addend: 0x0, symName: _memory, symObjAddr: 0x311A8, symBinAddr: 0x100010078, symSize: 0x0 }
+  - { offsetInCU: 0x8029, offset: 0x8029, size: 0x8, addend: 0x0, symName: _registersStr, symObjAddr: 0x311E8, symBinAddr: 0x1000100B8, symSize: 0x0 }
+  - { offsetInCU: 0x804A, offset: 0x804A, size: 0x8, addend: 0x0, symName: _memoryStr, symObjAddr: 0x31368, symBinAddr: 0x100010238, symSize: 0x0 }
   - { offsetInCU: 0x9C74, offset: 0x9C74, size: 0x8, addend: 0x0, symName: __Z7toloweri, symObjAddr: 0x75C, symBinAddr: 0x1000037F0, symSize: 0x24 }
   - { offsetInCU: 0xA432, offset: 0xA432, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev, symObjAddr: 0x0, symBinAddr: 0x100003094, symSize: 0x2C }
   - { offsetInCU: 0xA45B, offset: 0xA45B, size: 0x8, addend: 0x0, symName: __Z21decimalToBinaryStringi, symObjAddr: 0x2C, symBinAddr: 0x1000030C0, symSize: 0x50 }
